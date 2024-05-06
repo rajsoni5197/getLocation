@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Geolocation Example</title>
+  <title>Geolocation Example 22</title>
 </head>
 <body>
   <h1>Geolocation Example</h1>
@@ -32,7 +32,7 @@
 
     function sendGeolocationToServer(latitude, longitude) {
         
-      fetch('http://192.168.154.189:3000/geolocation', {
+      fetch('/geolocation', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
