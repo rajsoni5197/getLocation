@@ -23,6 +23,7 @@ app.post('/geolocation', (req, res) => {
   }
 
   // Do something with the geolocation data
+  console.log("ip address =====>", ipAddress)
   console.log(`Received geolocation: ${latitude}, ${longitude}`);
 
   // Send a response
